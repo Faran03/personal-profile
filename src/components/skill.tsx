@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <div className="h-screen grid place-items-center">
+    <div id="skills" className="h-screen grid place-items-center">
       <div className="w-[80vw] h-[90vh] grid grid-rows-3 place-items-center">
         <div className="grid place-items-center">
           <div className="text-[168px]/[150px] text-[#12F7D6] w-[80vw] flex flex-row-reverse pr-20">

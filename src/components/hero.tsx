@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <div id="hero" className="w-[100%] h-[90vh]">
-      <div className="mx-[5%] mt-[25px] w-auto h-[66.5vh] grid grid-cols-[320px_auto_215px] gris-rows-2 gap-y-[30px] place-items-center">
+      <div className="mx-[6.5%] mt-[25px] w-auto h-[66.5vh] grid grid-cols-[320px_auto_215px] gap-y-[30px] place-items-center">
         <div className="font-normal text-[117px]/[134px] text-[#98FAEC] col-span-3 text-center h-[134px]">
           Developer
         </div>
@@ -73,9 +73,11 @@ export default function Hero() {
                 REACT
               </div>
             </div>
-            <button className="w-[227px] h-[56px] bg-white rounded-[32px] font-normal text-[20px]/[24px] text-[#292F36] mt-5">
-              DOWNLOAD CV
-            </button>
+            <Link href={"/downloadcv"}>
+              <div className="w-[227px] h-[56px] bg-white rounded-[32px] font-normal text-[20px]/[24px] text-[#292F36] mt-5 grid place-items-center">
+                DOWNLOAD CV
+              </div>
+            </Link>
           </div>
         </div>
         <div className=" w-auto mx-[50px]">

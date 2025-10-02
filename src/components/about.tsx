@@ -6,7 +6,7 @@ export default function AboutMe() {
       id="aboutme"
       className="w-[100%] h-screen bg-[#1A1E23] bg-[url(/contour-line.png)] grid place-items-center"
     >
-      <div className="mx-[5%] w-[auto] h-[auto] flex gap-[5vw]">
+      <div className="mx-[6.5%] w-[auto] h-[auto] flex gap-[5vw]">
         <div>
           <div className="w-[367px] h-[104px] bg-[#292F36] border-4 border-[#12F7D6] rounded-tl-[40px] rounded-br-[40px] grid place-items-center text-normal text-[64px]/[72px]">
             About Me
