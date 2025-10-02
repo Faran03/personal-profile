@@ -2,7 +2,7 @@ import { NavLink } from "../navlink/navlink";
 
 export function Navbar() {
   return (
-    <div className="mx-[5%] w-auto h-[15vh] flex justify-between items-center border-b border-[#43454D]">
+    <div className="mx-[5%] w-auto h-[10vh] flex justify-between items-center border-b border-[#43454D]">
       <div className="flex gap-2">
         <div className="font-ibm-plex-mono font-medium text-[32px]/[42px] text-[#12F7D6]">
           {"<C/>"}

@@ -6,7 +6,7 @@ import Skills from "@/components/skill";
 export default function Home() {
   return (
     <>
-      <header className="w-[100%] h-[15vh] bg-[#292f36]">
+      <header className="w-[100%] h-[10vh] bg-[#292f36]">
         <Navbar />
       </header>
 

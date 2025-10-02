@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div id="hero" className="w-[100%] h-[85vh]">
+    <div id="hero" className="w-[100%] h-[90vh]">
       <div className="mx-[5%] mt-[25px] w-auto h-[66.5vh] grid grid-cols-[320px_auto_215px] gris-rows-2 gap-y-[30px] place-items-center">
         <div className="font-normal text-[117px]/[134px] text-[#98FAEC] col-span-3 text-center h-[134px]">
           Developer
