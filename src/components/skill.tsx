@@ -35,7 +35,7 @@ export default function Skills() {
           <div className="w-[296px] h-[132px] bg-[#98FAEC] rounded-[8px] flex flex-col justify-evenly items-center">
             <Image
               src={"/icon-skill-2.svg"}
-              alt="WebDev Icon"
+              alt="AppDev Icon"
               width={32}
               height={32}
             />
@@ -63,7 +63,7 @@ export default function Skills() {
           <div className="flex flex-col justify-center items-center gap-6">
             <Image
               src={"/Icon-css.svg"}
-              alt="icon html"
+              alt="icon css"
               width={144}
               height={144}
             />
@@ -74,7 +74,7 @@ export default function Skills() {
           <div className="flex flex-col justify-center items-center gap-6">
             <Image
               src={"/Icon-js.svg"}
-              alt="icon html"
+              alt="icon js"
               width={144}
               height={144}
             />
@@ -85,7 +85,7 @@ export default function Skills() {
           <div className="flex flex-col justify-center items-center gap-6">
             <Image
               src={"/Icon-react.svg"}
-              alt="icon html"
+              alt="icon react"
               width={144}
               height={144}
             />
