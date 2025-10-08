@@ -9,7 +9,7 @@ export function Experience() {
           Experience
         </div>
         <div className="font-normal font-ibm-plex-mono text-[16px]/[20px] mt-3">
-          {"I had the pleasure of working with these awesome project"}
+          {"All my previous jobs and my current jobs"}
         </div>
       </div>
 

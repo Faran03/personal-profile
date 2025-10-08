@@ -9,41 +9,61 @@ export default function Testimoni() {
           Testimoni
         </div>
         <div className="font-normal font-ibm-plex-mono text-[16px]/[20px] mt-3">
-          {"I had the pleasure of working with these awesome project"}
+          {"I had the pleasure of working with these awesome people"}
         </div>
       </div>
 
-      <div className="w-[90%] grid grid-cols-2 place-items-center gap-y-7">
-        <div className="w-[35vw] h-[15vh] border-2 rounded-tl-[7.5vh] rounded-br-[7.5vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-3">
-          <div className="text-[#12F7D6] font-normal text-[32px]/[36px]">
-            Smart Task Management App
+      <div className="w-[90%] flex flex-wrap justify-center gap-10">
+        <div className="w-[38vw] h-[16vh] border-2 rounded-tl-[8vh] rounded-br-[8vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-2 p-2.5">
+          <div className="text-[#12F7D6] font-normal text-[22px]/[26px]">
+            Sarah Lim, Founder of EcoMart
           </div>
           <div className="font-light text-[16px]/[18px]">
-            Next.JS, React, Tailwind CSS, Firebase, GitHub, Vercel, Figma
+            “Working with Faran was a game changer for our business. Our website
+            went from slow and outdated to fast, modern, and incredibly
+            user-friendly. We saw a 50% increase in online engagement within the
+            first month.”
           </div>
         </div>
-        <div className="w-[35vw] h-[15vh] border-2 rounded-tl-[7.5vh] rounded-br-[7.5vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-3">
-          <div className="text-[#12F7D6] font-normal text-[32px]/[36px]">
-            Modern E-Commerce Web App
+        <div className="w-[38vw] h-[16vh] border-2 rounded-tl-[8vh] rounded-br-[8vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-2 p-2.5">
+          <div className="text-[#12F7D6] font-normal text-[22px]/[26px] text-center">
+            Jonathan Lee, Project Manager at TechNova Solutions
           </div>
           <div className="font-light text-[16px]/[18px]">
-            React, Tailwind CSS, Node.js, Express, MongoDB, Stripe API, Vercel
+            “Reliable, professional, and detail-oriented. Faran not only
+            delivered on time but also suggested improvements that made the
+            final product even better than we envisioned.”
           </div>
         </div>
-        <div className="w-[35vw] h-[15vh] border-2 rounded-tl-[7.5vh] rounded-br-[7.5vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-3">
-          <div className="text-[#12F7D6] font-normal text-[32px]/[36px]">
-            Real-Time Weather Dashboard
+        <div className="w-[38vw] h-[16vh] border-2 rounded-tl-[8vh] rounded-br-[8vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-2 p-2.5">
+          <div className="text-[#12F7D6] font-normal text-[22px]/[26px] text-center">
+            Michael Tan, Senior Developer at BrightCode Digital
           </div>
           <div className="font-light text-[16px]/[18px]">
-            Next.js, Tailwind CSS, Framer Motion, OpenWeatherMap API, Vercel
+            “What impressed me most was {"Faran's"} ability to translate complex
+            technical concepts into simple, actionable solutions. Their frontend
+            and backend skills are equally strong, which made collaboration
+            seamless.”
           </div>
         </div>
-        <div className="w-[35vw] h-[15vh] border-2 rounded-tl-[7.5vh] rounded-br-[7.5vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-3">
-          <div className="text-[#12F7D6] font-normal text-[32px]/[36px]">
-            Personal Portfolio Website
+        <div className="w-[38vw] h-[16vh] border-2 rounded-tl-[8vh] rounded-br-[8vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-2 p-2.5">
+          <div className="text-[#12F7D6] font-normal text-[22px]/[26px] text-center">
+            Nadia Putri, Operations Lead at TaskFlow Co.
           </div>
           <div className="font-light text-[16px]/[18px]">
-            Next.JS, React, Tailwind CSS, Figma
+            “Our {"team's"} productivity skyrocketed after Faran implemented the
+            new task management system. Their problem-solving skills and
+            technical expertise are top-tier.”
+          </div>
+        </div>
+        <div className="w-[38vw] h-[16vh] border-2 rounded-tl-[8vh] rounded-br-[8vh] bg-[#292F36] border-white flex flex-col justify-center items-center gap-2 p-2.5">
+          <div className="text-[#12F7D6] font-normal text-[22px]/[26px] text-center">
+            Daniel Wong, CEO of ShopEase
+          </div>
+          <div className="font-light text-[16px]/[18px]">
+            “This was one of the smoothest development experiences {"I've"} ever
+            had. Faran was communicative, fast, and built exactly what we
+            needed. {"We'll"} definitely work together again.”
           </div>
         </div>
       </div>

@@ -36,6 +36,17 @@ export default function SideNav() {
           height={40}
         />
       </Link>
+      <Link href={"#testimoni"}>
+        <Image
+          src={"/testimoni.svg"}
+          alt="testimoni icon"
+          width={40}
+          height={40}
+        />
+      </Link>
+      <Link href={"#contact"}>
+        <Image src={"/contact.svg"} alt="contact icon" width={40} height={40} />
+      </Link>
     </div>
   );
 }
