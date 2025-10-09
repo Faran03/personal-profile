@@ -9,8 +9,14 @@ export default function Hero() {
           Developer
         </div>
         <div className=" border-2 w-[320px] h-[520px] rounded-tl-[160px] rounded-br-[160px] flex flex-col items-center">
-          <div className="w-[96px] h-[96px] border rounded-[50%] mt-7 place-content-center">
-            Picture
+          <div className="w-[96px] h-[96px] mt-7 place-content-center">
+            <Image
+              src={"/profile.jpg"}
+              width={96}
+              height={96}
+              alt="profile-pic"
+              className="rounded-[50%]"
+            />
           </div>
           <div className="font-medium text-[32px]/[42px] font-ibm-plex-mono mt-[16px]">
             Faran
