@@ -43,7 +43,7 @@ export default function AboutMe() {
             </div>
           </div>
         </div>
-        <Image src={"/image-1.png"} alt="img-1" width={462} height={556} />
+        <Image src={"/Image-1.png"} alt="img-1" width={462} height={556} />
       </div>
     </div>
   );
